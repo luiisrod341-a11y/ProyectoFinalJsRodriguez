@@ -1,0 +1,151 @@
+
+$negro-fondo: #000000;
+$amarillo-brillaneta: #FFD700;
+$gris-tarjetas: #1a1a1a;
+$blanco-texto: #ffffff;
+
+
+body {
+    background-color: $negro-fondo !important;
+    color: $blanco-texto !important;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+    background-color: $negro-fondo !important;
+    border-bottom: 4px solid $amarillo-brillaneta !important;
+    padding: 20px 0;
+    h1 {
+        color: $amarillo-brillaneta !important;
+        font-weight: bold;
+    }
+}
+
+h2 {
+    color: $blanco-texto !important;
+}
+
+
+.card {
+    background-color: $gris-tarjetas !important; 
+    border: 1px solid #333 !important;
+    overflow: hidden; 
+    
+    &:hover {
+        border-color: $amarillo-brillaneta !important;
+        box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+    }
+
+    .card-title {
+        color: $amarillo-brillaneta !important;
+    }
+
+    p, span, small {
+        color: #ccc !important; 
+    }
+
+    .card-text.text-muted {
+        color: #aaaaaa !important;
+        font-size: 0.9rem;
+    }
+
+    .btn-primary {
+        background-color: $amarillo-brillaneta !important;
+        color: black !important;
+        border: none !important;
+        font-weight: bold;
+        transition: transform 0.2s ease;
+        
+        &:active {
+            transform: scale(0.95);
+        }
+        &:hover {
+            background-color: white !important;
+        }
+    }
+}
+
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    filter: grayscale(30%);
+    transition: all 0.5s ease;
+}
+
+.card:hover .card-img-top {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+
+aside .card {
+    border: 1px solid $amarillo-brillaneta !important;
+    background-color: #1a1a1a !important; 
+
+    h3, h4 {
+        color: $amarillo-brillaneta !important;
+    }
+
+    #items-carrito {
+        color: $blanco-texto !important;
+
+        
+        p, span, .text-muted { 
+            color: $amarillo-brillaneta !important; 
+            font-style: italic;
+            text-align: center;
+            padding: 15px 0;
+            display: block; 
+        }
+
+        
+        div {
+ 
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    display: block; 
+    width: 100%;
+    filter: grayscale(30%);
+    transition: all 0.5s ease;
+}
+
+
+aside .card {
+    background-color: #1a1a1a !important;
+    border: 1px solid $amarillo-brillaneta !important;
+
+    #items-carrito {
+        
+        p {
+            color: #ffffff !important; 
+    text-align: center !important;
+    opacity: 1 !important;
+        }
+
+        
+        div {
+            display: flex; 
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #333 !important;
+            padding: 10px 0;
+            color: white;
+            
+            
+            img {
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+
+#contenedor-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+}

@@ -1,0 +1,94 @@
+body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  font-family: "Segoe UI", sans-serif;
+}
+
+header {
+  background-color: #000000 !important;
+  border-bottom: 4px solid #FFD700 !important;
+  padding: 20px 0;
+}
+header h1 {
+  color: #FFD700 !important;
+  font-weight: bold;
+}
+
+h2 {
+  color: #ffffff !important;
+}
+
+.card {
+  background-color: #1a1a1a !important;
+  border: 1px solid #333 !important;
+  overflow: hidden;
+}
+.card:hover {
+  border-color: #FFD700 !important;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+}
+.card .card-title {
+  color: #FFD700 !important;
+}
+.card p, .card span, .card small {
+  color: #ccc !important;
+}
+.card .card-text.text-muted {
+  color: #aaaaaa !important;
+  font-size: 0.9rem;
+}
+.card .btn-primary {
+  background-color: #FFD700 !important;
+  color: black !important;
+  border: none !important;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+.card .btn-primary:active {
+  transform: scale(0.95);
+}
+.card .btn-primary:hover {
+  background-color: white !important;
+}
+
+.card-img-top {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: grayscale(30%);
+  transition: all 0.5s ease;
+}
+
+.card:hover .card-img-top {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+aside .card {
+  border: 1px solid #FFD700 !important;
+  background-color: #1a1a1a !important;
+}
+aside .card h3, aside .card h4 {
+  color: #FFD700 !important;
+}
+aside .card #items-carrito {
+  color: #ffffff !important;
+}
+aside .card #items-carrito p, aside .card #items-carrito span, aside .card #items-carrito .text-muted {
+  color: #FFD700 !important;
+  font-style: italic;
+  text-align: center;
+  padding: 15px 0;
+  display: block;
+}
+aside .card #items-carrito div {
+  border-bottom: 1px solid #333 !important;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+aside .card #total-presupuesto {
+  color: #FFD700 !important;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */

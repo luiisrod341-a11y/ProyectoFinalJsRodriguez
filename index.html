@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Brillaneta | Car Detailing</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container d-flex justify-content-between align-items-center">
+        <h1>La Brillaneta</h1>
+        <div>
+          <span class="badge bg-primary"
+            >Carrito: <span id="contador-carrito">0</span></span
+          >
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="row">
+        <section class="col-md-8">
+          <h2 class="mb-4">Elegí tu servicio</h2>
+          <button id="btn-premium">Ver premium</button>
+          <button id="btn-todos">Ver todos</button>
+          <div id="contenedor-servicios" class="row g-4"></div>
+        </section>
+
+        <aside class="col-md-4">
+          <div>
+            <h3>Resumen</h3>
+            <div id="items-carrito"></div>
+            <hr />
+            <h4>Total: <span id="total-presupuesto">$0</span></h4>
+            <button id="btn-finalizar" class="btn btn-success w-100 mt-3">
+              Confirmar Turno
+            </button>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+
+    <script src="./js/funciones.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

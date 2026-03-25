@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Lavado Full",
+    "precio": 25000,
+    "descripcion": "Exterior e interior detallado.",
+    "img": "../img/limpiezafull.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Tratamiento Cerámico",
+    "precio": 100000,
+    "descripcion": "Protección de pintura por 12 meses.",
+    "img": "../img/tratamientoceramico.jpg"
+  },
+  {
+  "id": 3,
+  "nombre": "Lavado Exterior",
+  "precio": 15000,
+  "descripcion": "Lavado exterior con shampoo premium.",
+  "img": "../img/lavadoexterior.jpg"
+},
+{
+  "id": 4,
+  "nombre": "Pulido de Ópticas",
+  "precio": 40000,
+  "descripcion": "Restauración de faros opacos.",
+  "img": "../img/pulidodeopticas.jpg"
+}
+]
